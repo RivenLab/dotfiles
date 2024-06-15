@@ -14,8 +14,8 @@ cd dotfiles
 
 3. Initialize the configuration using stow with your desired directory name:
 
-```
+```markdown
 stow $Directory_name
 ```
 
-Replace $Directory_name with the name of the directory you wish to configure using stow. This setup will symlink the appropriate dotfiles from the repository to your home directory.
+Replace **$Directory_name** with the name of the directory you wish to configure using stow. This setup will symlink the appropriate dotfiles from the repository to your home directory.
