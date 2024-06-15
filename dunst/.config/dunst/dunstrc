@@ -1,0 +1,71 @@
+#----------------------------------------------------------------------------------
+# NOTE: The notifications set here are strictly shaped for a 1920x1080 display.
+#
+# Format parameters:
+#
+#   %a - appname
+#   %s - summary
+#   %b - body
+#   %i - iconname (including its path)
+#   %I - iconname (without its path)
+#   %p - progress value if set ([  0%] to [100%]) or nothing
+#----------------------------------------------------------------------------------
+
+[global]
+    font = Monofur Nerd Font Mono 11
+    markup = yes
+    format = "<b>%s</b>\n%b"
+    sort = yes
+    indicate_hidden = no
+    alignment = left
+    show_age_threshold = -1
+    word_wrap = no
+    ignore_newline = no
+    origin = top-right
+    # Stack together notifications with the same content
+    stack_duplicates = true
+    # Hide the count of stacked notifications with the same content
+    hide_duplicate_count = true
+    shrink = no
+    transparency = 4
+    progress_bar = yes
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 0
+    progress_bar_corners = all
+    idle_threshold = 70
+    gap_size = 2
+    separator_height = 2
+    monitor = 0
+    follow = mouse
+    sticky_history = yes
+    history_length = 0
+    show_indicators = yes
+    line_height = 5
+    padding = 10
+    horizontal_padding = 10
+    separator_color = frame
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/brave
+    icon_position = off
+    icon_path = /usr/share/icons/gnome/32x32/status/:/usr/share/icons/gnome/32x32/devices/
+    frame_width = 1
+#    width = (0, 500)
+    frame_color = "#8AADF4"
+    notification_limit = 10
+    separator_color= frame
+
+[urgency_low]
+background = "#24273A"
+foreground = "#CAD3F5"
+
+[urgency_normal]
+background = "#24273A"
+foreground = "#CAD3F5"
+
+[urgency_critical]
+background = "#24273A"
+foreground = "#CAD3F5"
+frame_color = "#F5A97F" 

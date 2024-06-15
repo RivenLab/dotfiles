@@ -1,0 +1,103 @@
+############################# applications #############################
+
+### Basic
+super + {Return,e,a}
+	{alacritty,thunar,brave}
+
+
+### APP
+super + {k,p,g,o}
+	{code,keepassxc,gedit,obsidian}
+
+
+############################# Launchers #############################
+
+### dmenu
+super + d
+	dmenu_run -fn "Monospace" -l 10
+
+### rofi
+super + r
+	rofi -show
+
+super + space
+	rofi -show drun -show-icons
+
+
+############################# Scripts #############################
+
+### ROFI / dmenu
+
+super + t
+	time_date
+
+super + s
+	sys-stats
+
+super + m
+	game-menu
+
+super + h
+	ping-test
+
+super + shift + l
+	power-menu
+
+super + shift + p
+	copy-superpass
+
+############################# Util #############################
+
+#kill
+super + ctrl + x
+	xkill
+
+# printscreen
+#@Print
+#	screenshot
+
+# Screenshot
+super + shift + s
+	flameshot gui
+
+# lockscreen
+super + l
+	i3lock -e -n -f -i ~/.wallpaper/i3lock.png &
+
+
+############################# Multimedia #############################
+XF86AudioRaiseVolume
+	pamixer --increase 7 --allow-boost --set-limit 153
+
+XF86AudioLowerVolume
+	pamixer --decrease 7 --allow-boost --set-limit 153
+
+XF86AudioMute
+	pamixer -t
+
+XF86Audio{Prev,Next,Play,Stop}
+	playerctl {previous,next,play-pause,stop}
+
+XF86Tools
+	clementine
+
+XF86Mail
+	chromium
+
+XF86HomePage
+	changebrightness up
+
+XF86Explorer
+	changebrightness down
+
+XF86Calculator
+	calc.sh
+	
+#############################################################################
+
+# brightness keys Laptop
+#XF86MonBrightnessUp
+#	changebrightness up
+
+#XF86MonBrightnessDown
+#	

@@ -1,0 +1,34 @@
+#!/bin/sh
+
+## Desktop Background
+##feh --no-fehbg --bg-fill ~/.wallpaper/Weekly.png & 
+
+### Programes
+copyq &
+sxhkd &
+dunst &
+
+
+## NetworkManager Icon
+#nm-applet &
+
+
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+
+
+xrandr --output DP-1 --brightness 1.05  --mode 1920x1080 --rate 60
+setxkbmap -layout us -variant qwerty-fr
+
+
+
+## Start Desktop Envirenment || Window Manager
+session=${1:-dwm}
+case $session in
+    i3|i3wm           ) exec i3;;
+    kde               ) exec startplasma-x11;;
+    dwm		      ) exec dwm;;
+    xfce|xfce4        ) exec startxfce4;;
+    qtile	      ) exec qtile start;;
+    # No known session, try to run it as command
+    *                 ) exec $1;;
+esac
