@@ -3,15 +3,17 @@
 ## Usage 
 
 1. Clone Repo
+
 ´´´
 git clone https://github.com/RivenLab/dotfiles.git
 ´´´
 
 2. Change to the cloned directory: 
+
 ´´´
 cd dotfiles
-´´´
 
+´´´
 3. Initialize the configuration using stow with your desired directory name:
 
 ´´´
