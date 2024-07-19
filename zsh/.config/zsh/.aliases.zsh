@@ -25,6 +25,8 @@ alias vim='vim'
 alias vi='nvim'
 alias rofi-full="rofi -show drun -no-sort -calc-command 'copyq add '{result}' && copyq copy '{result}''"
 
+## kity
+#alias ssh='kitten ssh'
 
 # Power
 #alias poweroff="sudo poweroff"

@@ -2,7 +2,7 @@
 
 ### Basic
 super + {Return,e,a}
-	{alacritty,thunar,brave}
+	{kitty,thunar,brave}
 
 
 ### APP

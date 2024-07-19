@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Desktop Background
-##feh --no-fehbg --bg-fill ~/.wallpaper/Weekly.png & 
+feh  --no-fehbg --recursive --bg-fill --randomize ~/Pictures/Wallpapers/ &
 
 ### Programes
 copyq &
@@ -13,16 +13,13 @@ dunst &
 #nm-applet &
 
 
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
-
-
 xrandr --output DP-1 --brightness 1.05  --mode 1920x1080 --rate 60
 setxkbmap -layout us -variant qwerty-fr
 
-
+[[ -f ~/.config/X11/Xmodmap ]] && xmodmap ~/.config/X11/Xmodmap
 
 ## Start Desktop Envirenment || Window Manager
-session=${1:-dwm}
+session=${1:-xfce}
 case $session in
     i3|i3wm           ) exec i3;;
     kde               ) exec startplasma-x11;;
