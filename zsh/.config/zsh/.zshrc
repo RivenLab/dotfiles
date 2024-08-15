@@ -120,3 +120,6 @@ setopt no_auto_menu  # require an extra TAB press to open the completion menu
 (( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+
+
+eval "$(zoxide init zsh)"

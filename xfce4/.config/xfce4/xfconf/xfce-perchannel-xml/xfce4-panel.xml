@@ -36,6 +36,7 @@
     </property>
     <property name="plugin-3" type="string" value="systray">
       <property name="known-items" type="array">
+        <value type="string" value="tray-icon tray app"/>
         <value type="string" value="remmina-icon"/>
         <value type="string" value="gromit-mpx"/>
         <value type="string" value="Screenkey"/>
@@ -47,6 +48,7 @@
       </property>
       <property name="menu-is-primary" type="bool" value="false"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="rustdesk"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="ethernet network connection “switch” active starting vpn connection “r-cloud”…"/>
         <value type="string" value="ethernet network connection “switch” active starting vpn connection “r-cloud”…"/>
