@@ -21,12 +21,13 @@ alias ms='sudo mousepad'
 alias clang='clang++ -Wall'
 
 alias v='nvim'
-alias vim='vim'
+alias vim='nvim'
 alias vi='nvim'
+alias nano='nvim'
 alias rofi-full="rofi -show drun -no-sort -calc-command 'copyq add '{result}' && copyq copy '{result}''"
 
 ## kity
-#alias ssh='kitten ssh'
+alias ssh='kitten ssh'
 
 # Power
 #alias poweroff="sudo poweroff"

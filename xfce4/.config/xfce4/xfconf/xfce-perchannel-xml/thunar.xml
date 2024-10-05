@@ -29,4 +29,5 @@
     <value type="string" value="R-ST"/>
   </property>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
+  <property name="misc-recursive-permissions" type="string" value="THUNAR_RECURSIVE_PERMISSIONS_NEVER"/>
 </channel>

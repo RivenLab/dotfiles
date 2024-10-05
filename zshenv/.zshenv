@@ -26,7 +26,7 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc":"$XDG_CONFIG_HOME/gtk-2.0/gtkrc.mine"
 
-export TERMINAL=/usr/bin/alacritty
+export TERMINAL=/usr/bin/kitty
 export BROWSER=/usr/bin/brave
 export EDITOR=/usr/bin/nvim
 export FILE=/usr/bin/thunar

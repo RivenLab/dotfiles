@@ -7,10 +7,11 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/main/Pictures/Wallpapers/9.jpg"/>
+          <property name="last-image" type="string" value="/home/main/Pictures/Wallpapers/8.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-period" type="int" value="2"/>
           <property name="backdrop-cycle-timer" type="uint" value="1"/>
+          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
         </property>
       </property>
       <property name="monitor0" type="empty">
@@ -18,6 +19,15 @@
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+        </property>
+      </property>
+      <property name="monitorHDMI-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="backdrop-cycle-enable" type="bool" value="true"/>
+          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="color-style" type="int" value="0"/>
+          <property name="last-image" type="string" value="/home/main/Pictures/Wallpapers/4.jpg"/>
         </property>
       </property>
     </property>

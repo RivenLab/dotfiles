@@ -6,14 +6,14 @@ feh  --no-fehbg --recursive --bg-fill --randomize ~/Pictures/Wallpapers/ &
 ### Programes
 copyq &
 sxhkd &
-dunst &
-
+#dunst &
+redshift -O 4500K -r -P
 
 ## NetworkManager Icon
 #nm-applet &
 
 
-xrandr --output DP-1 --brightness 1.05  --mode 1920x1080 --rate 60
+#xrandr --output DP-1 --brightness 1.05  --mode 1920x1080 --rate 60
 
 setxkbmap -layout us -variant qwerty-fr
 

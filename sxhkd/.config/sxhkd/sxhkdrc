@@ -67,22 +67,30 @@ super + l
 
 ############################# Multimedia #############################
 XF86AudioRaiseVolume
-	pamixer --increase 7 --allow-boost --set-limit 153
+	volume raise
 
 XF86AudioLowerVolume
-	pamixer --decrease 7 --allow-boost --set-limit 153
+	volume lower
 
 XF86AudioMute
-	pamixer -t
+	volume mute
 
-XF86Audio{Prev,Next,Play,Stop}
-	playerctl {previous,next,play-pause,stop}
+#XF86Audio{Prev,Next,Play,Stop}
+#	playerctl {previous,next,play-pause,stop}
 
 XF86Tools
 	clementine
 
 XF86Mail
 	chromium
+
+
+
+
+
+
+
+
 
 XF86HomePage
 	changebrightness up
