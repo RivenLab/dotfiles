@@ -2,14 +2,14 @@
 
 ### Basic
 super + {Return,e,a}
-	{kitty,thunar,brave}
+	{alacritty,thunar,firefox}
 
 
 ### APP
 super + {k,p,g,o}
 	{code,keepassxc,gedit,obsidian}
-
-
+super + m
+	wine /home/dragon/.local/MobaXterm/MobaXterm_Personal_25.2_Preview2.exe 
 ############################# Launchers #############################
 
 ### dmenu
@@ -34,8 +34,8 @@ super + t
 super + s
 	sys-stats
 
-super + m
-	game-menu
+#super + m
+#	game-menu
 
 super + h
 	ping-test
@@ -75,8 +75,8 @@ XF86AudioLowerVolume
 XF86AudioMute
 	volume mute
 
-#XF86Audio{Prev,Next,Play,Stop}
-#	playerctl {previous,next,play-pause,stop}
+XF86Audio{Prev,Next,Play,Stop}
+	playerctl {previous,next,play-pause,stop}
 
 XF86Tools
 	clementine

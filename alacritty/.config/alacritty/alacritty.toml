@@ -1,12 +1,14 @@
-import = ["/home/main/.config/alacritty/dracula.toml"]
 
 [font]
-size = 4.0
+#size = 4.0
 
 [[mouse.bindings]]
 action = "Paste"
 mouse = "Right"
 
 [window]
-decorations = "none"
-title = "Code"
+#decorations = "none"
+#title = "Code"
+
+[general]
+#import = ["/home/main/.config/alacritty/dracula.toml"]
