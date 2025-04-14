@@ -1,4 +1,4 @@
 TerminalEmulator=alacritty
-WebBrowser=brave-browser
+WebBrowser=firefox
 WebBrowserDismissed=true
 
