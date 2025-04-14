@@ -1,14 +1,33 @@
+[[keyboard.bindings]]
+key = "F"
+mods = "Control"
 
-[font]
-#size = 4.0
+[keyboard.bindings.command]
+args = ["$(fzf)"]
+program = "nano"
+
+[mouse]
 
 [[mouse.bindings]]
 action = "Paste"
 mouse = "Right"
 
-[window]
-#decorations = "none"
-#title = "Code"
-
 [general]
-#import = ["/home/main/.config/alacritty/dracula.toml"]
+import = ["/home/dragon/.config/alacritty/dracula.toml"]
+
+[font]
+size = 14.0
+
+[font.normal]
+#family = "JetbriansMono nerd Font"
+
+[window]
+decorations = "buttonless"
+opacity = 1.0
+title = "terminal"
+
+[window.padding]
+x = 10
+y = 4
+
+[keyboard]
