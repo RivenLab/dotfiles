@@ -9,7 +9,7 @@ super + {Return,e,a}
 super + {k,p,g,o}
 	{code,keepassxc,gedit,obsidian}
 super + m
-	wine /home/dragon/.local/MobaXterm/MobaXterm_Personal_25.2_Preview2.exe 
+	wine /home/dragon/.local/MobaXterm/MobaXterm_Personal_25.1.exe 
 ############################# Launchers #############################
 
 ### dmenu
